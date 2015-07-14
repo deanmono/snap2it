@@ -1,0 +1,215 @@
+/* Custom Stylesheet */
+
+body {
+    font-family:  "Helvetica Neue", Helvetica, Arial;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  -webkit-font-smoothing: antialiased;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+  .parallax {
+      background-color: #000;
+  }
+  .parallax img {
+      opacity: 0.7;
+  }
+img.logo {
+    margin: 11px;
+    max-height: 45px;
+    max-width: 122px;
+}
+li.order a {
+    color: #FFF;
+    font-weight: bold;
+}
+li.order a:hover {
+
+}
+.icon-block
+{
+    -webkit-font-smoothing: antialiased;
+}
+.icon-block h4 {
+    padding-bottom: 30px;
+}
+.icon-block h4:after {
+    content: ' ';
+    display: block;
+    width: 100px;
+    border-top: 2px solid #3d3d3d;
+    margin: 0px auto;
+    top: 20px;
+    position: relative;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.shadow-heavy {
+    text-shadow: #000 0 0 7px , rgba(0, 0, 0, 0.9) 0 0 20px;
+}
+.section-story {
+    border-top: 4px solid #F47F21;
+}
+.products .row {
+    margin-bottom: 40px;
+}
+/**
+ * Product
+**/
+.product {
+    padding: 0px 5px;
+    position: relative;
+}
+.product-image img {
+    width: 100%;
+}
+.desc {
+    font-weight: 200;
+    font-size: 0.8em;
+}
+.calories {
+    bottom: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 70px;
+    background-color: rgba(244, 127, 33, 0.7);
+    position: absolute;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 10px;
+}
+.total {
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: normal;
+}
+.product-title {
+    width: 70%;
+    float: left;
+}
+.product-misc {
+    width: 30%;
+    float: left;
+    padding: 4px 0;
+}
+.section-app {
+
+}
+.appstore {
+    margin: 30px 0;
+    background: url('../img/appstore.png') no-repeat top center;
+    background-size: cover;
+    width: 200px;
+    height: 58px;
+    display: block;
+}
+.appblock {
+    padding: 0px 50px;
+    margin-top: 60px;
+}
+.appblock h3 {
+    text-align: left;
+}
+.appphone {
+    bottom: 0px;
+}
+.appphone img {
+    width: 70%;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+}
+@media only screen and (min-width : 992px) {
+    #index-banner {
+        border-top: 4px solid #F47F21;
+    }
+    #index-banner .section {
+        margin: 100px 0;
+    }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+footer li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 1.1em;
+}
+footer ul {
+    text-align: center;
+}
+.social img {
+    width: 30px;
+    height: 30px;
+
+}
+.parisblack {
+    font-family: 'parisblack', "Helvetica Neue", Helvetica, Arial, Calibri, Helvetica, Arial;
+}
+.parisbold {
+    font-family: 'parisbold', "Helvetica Neue", Helvetica, Arial, Calibri, Helvetica, Arial;
+}
+@font-face {
+    font-family: 'parisblack';
+    src: url('../fonts/paris-black-3-webfont.eot');
+    src: url('../fonts/paris-black-3-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/paris-black-3-webfont.woff') format('woff'),
+    url('../fonts/paris-black-3-webfont.ttf') format('truetype'),
+    url('../fonts/paris-black-3-webfont.svg#futuramedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'parisbold';
+    src: url('../fonts/paris-bold-3-webfont.eot');
+    src: url('../fonts/paris-bold-3-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/paris-bold-3-webfont.woff') format('woff'),
+    url('../fonts/paris-bold-3-webfont.ttf') format('truetype'),
+    url('../fonts/paris-bold-3-webfont.svg#copperplate_condmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
